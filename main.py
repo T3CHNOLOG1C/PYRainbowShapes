@@ -25,11 +25,11 @@ while True:
 			
 	selection=input("Select an Option:")
 	if selection =='1':
-			execv("python3 rainbowsquare.py")
+			execv("python3 rainbowsquare.py", argv)
 	elif selection =='2':
-			execv("python3 rainbowtriangle.py")
+			execv("python3 rainbowtriangle.py", argv)
 	elif selection =='3':
-			execv("python3 rainbowcircle.py")
+			execv("python3 rainbowcircle.py", argv)
 	elif selection =='4':
 			execv("python3 rainbowstar.py", argv)
 	elif selection =='5':
