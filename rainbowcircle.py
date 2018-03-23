@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-
+#!/usr/bin/env python3
 
 import turtle as t
 import random as r
