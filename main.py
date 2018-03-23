@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from os import execv
+from sys import argv
 
 str = "Rainbow Shapes"
 str2 = "Created by T3CHNOLOG1C"
