@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import turtle as t
 import random as r
 title = 'Rainbow Square'
