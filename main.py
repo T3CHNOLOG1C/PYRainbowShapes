@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+from os import execv
+
 str = "Rainbow Shapes"
 str2 = "Created by T3CHNOLOG1C"
 str3 = "Welcome to Rainbow Shape Selector!"
@@ -22,13 +25,13 @@ while True:
 			
 	selection=input("Select an Option:")
 	if selection =='1':
-			import rainbowsquare
+			execv("python3 rainbowsquare.py")
 	elif selection =='2':
-			import rainbowtriangle
+			execv("python3 rainbowtriangle.py")
 	elif selection =='3':
-			import rainbowcircle
+			execv("python3 rainbowcircle.py")
 	elif selection =='4':
-			import rainbowstar
+			execv("python3 rainbowstar.py", argv)
 	elif selection =='5':
 			break
 	else:
